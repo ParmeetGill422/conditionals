@@ -49,9 +49,9 @@ public class Main {
     }
 
     public static void truck(int weight) {
-        if (weight < 3000){
+        if (weight < 20000){
             System.out.println("CAN GO OVER");
-        }else if (weight < 5000) {
+        }else if (weight < 40000) {
             System.out.println("CAN GO OVER BUT SLOW");
         }else{
             System.out.println("CANT GO OVER");
@@ -60,10 +60,10 @@ public class Main {
     }
 
     public static void bridge(String[] args) {
-        truck(2300);
-        truck(2900);
-        truck(4000);
-        truck(12000);
+        truck(18000);
+        truck(29000);
+        truck(36000);
+        truck(52000);
 
     }
 }
